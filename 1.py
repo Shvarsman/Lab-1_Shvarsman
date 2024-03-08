@@ -17,8 +17,8 @@ def IsVipucliy(cords):
         cur = sign(vec[i][0] * vec[i + 1][1] - vec[i][1] * vec[i + 1][0])
         if not cur == sgn:
             if not cur == 0:
-                return "Vipukly"
-    return "Nevypukliy"
+                return "Невыпуклый"
+    return "Выпуклый"
 
 def Graph(cords):
     cords.append(cords[0])
